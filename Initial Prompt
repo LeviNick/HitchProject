@@ -1,0 +1,10 @@
+#Hitch
+
+DriverPassenger=input('Are you a Driver or a Passenger?:')
+
+if DriverPassenger=="Passenger":
+    PassengerSchool,PassengerID,PassengerDestination=input('Where do you go to school?:'),input('ID Number?:'),input('Where do you want to Hitch to?:')
+elif DriverPassenger=="Driver":
+    DriverSchool,DriverID,DriverDestination,DriverCapacity=input('Where do you go to school?:'),input('Student ID #?:'),input('Where are you going?:'),input('How many people can you Hitch? (No Middle Seats!):')
+else:
+    print('Please check for spelling and use capital letters')
